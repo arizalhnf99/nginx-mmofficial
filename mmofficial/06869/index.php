@@ -1,0 +1,114 @@
+<html>
+<head><title>Rizal</title></head>
+<body>
+<h1>Biodata</h1>
+<?php
+echo "<table width='560' border='0'>";
+  echo "<tr>";
+    echo "<td width='51'>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td width='227'>";
+        echo "Nama Lengkap";
+        echo "</td>";
+    echo "<td width='8'>";
+        echo ":";
+        echo "</td>";
+    echo "<td width='254'>";
+        echo "Muhammad Arizal Hanif";
+        echo "</td>";
+    echo "<td>";
+        echo "</td>";
+    echo "<td>";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";     
+    echo "<td>";
+        echo "Nama Panggilan";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "Rizal, Hanif, Wakjo, serah lu dahh :v";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";     
+    echo "<td>";
+        echo "Tempat, Tanggal Lahir";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "Mojokerto, 21 April 1999";
+        echo "</td>";
+  echo "</tr>";
+
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td>";
+        echo "Asal Sekolah";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "SKMN 1 Pungging";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+       
+    echo "<td>";
+        echo "Alamat";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "Dsn. Bajangan Ds. Kembangringgit Kec. Pungging";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td>";
+        echo "Agama";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "ISLAM";
+        echo "</td>";
+  echo "</tr>";
+  echo "<tr>";
+    echo "<td>";
+        echo "&nbsp;";
+        echo "</td>";
+    echo "<td>";
+        echo "Hobi";
+        echo "</td>";
+    echo "<td>";
+        echo ":";
+        echo "</td>";
+    echo "<td>";
+        echo "Tidur & Jalan - jalan";
+        echo "</td>";
+  echo "</tr>";
+echo "</table>";
+?>
+</body>
+</html>

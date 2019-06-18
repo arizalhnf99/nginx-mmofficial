@@ -1,0 +1,84 @@
+server {
+  listen 80;
+  server_name www.mmofficial.com;
+  root /usr/share/nginx/html/mmofficial/mmofc;
+  index index.php index.html;
+
+	location / {
+                try_files $uri $uri/ =404;
+        }
+
+        location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+                fastcgi_pass 127.0.0.1:9000;
+        }
+
+        location ~ /\.ht {
+               deny all;
+        }
+}
+
+server {
+  listen 80;
+  server_name 06869.mmofficial.com;
+  root /usr/share/nginx/html/mmofficial/06869;
+  index index.php index.html;
+
+	location / {
+                try_files $uri $uri/ =404;
+        }
+
+        location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+                fastcgi_pass 127.0.0.1:9000;
+        }
+
+        location ~ /\.ht {
+               deny all;
+        }
+}
+
+server {
+  listen 80;
+  server_name 06871.mmofficial.com;
+  root /usr/share/nginx/html/mmofficial/06871;
+  index index.php index.html;
+
+	location / {
+                try_files $uri $uri/ =404;
+        }
+
+        location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+                fastcgi_pass 127.0.0.1:9000;
+        }
+
+        location ~ /\.ht {
+               deny all;
+        }
+}
+
+server {
+  listen 80;
+  server_name 06896.mmofficial.com;
+  root /usr/share/nginx/html/mmofficial/06896;
+  index index.php index.html;
+
+	location / {
+                try_files $uri $uri/ =404;
+        }
+
+        location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+		fastcgi_split_path_info ^(.+\.php)(/.+)$;
+                fastcgi_pass 127.0.0.1:9000;
+        }
+
+        location ~ /\.ht {
+               deny all;
+        }
+}
+
